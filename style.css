@@ -1,0 +1,33 @@
+.calcolatrice {
+    width: max-content;
+    border: solid;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.operazioni {
+    padding: 20px;
+    
+}
+
+button {
+    padding: 20px;
+    grid-template-columns: repeat(3, 1fr)
+
+
+}
+.zero {
+    background-color: rgb(138, 138, 138);
+    padding: 30px;
+}
+.operazioni {
+    background-color: gainsboro;
+}
+.uguale {
+    background-color: crimson;
+}
+.bottoni {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr)
+    
+}
